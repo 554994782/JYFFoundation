@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		29390A7A0674E7395441C900EE9B70E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EE9816CFC26B4DA85CB87738FEFC74BF /* Pods-JYFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BB0F652FC4ED4E73F6B3552C98BF16 /* Pods-JYFFoundation-dummy.m */; };
+		EE9816CFC26B4DA85CB87738FEFC74BF /* Pods-JYFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF93B84A8B34CA35C736EC47896B250 /* Pods-JYFFoundation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A6CE13D1A7651D458D1CD4CFA7CE9BA /* Pods-JYFFoundation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYFFoundation-resources.sh"; sourceTree = "<group>"; };
-		2BECFCBC45737F55EC837097A643BAAF /* Pods-JYFFoundation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYFFoundation-acknowledgements.markdown"; sourceTree = "<group>"; };
-		519EDF3817889A3DCA98E9C77D927286 /* Pods-JYFFoundation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYFFoundation-frameworks.sh"; sourceTree = "<group>"; };
+		36CB6A08C5A5726F299F14775AB6F3FA /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		492A3A28650F87920084C1ADF50D72D6 /* Pods-JYFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7663C93361BCAA205A8D77B20AEF1905 /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
-		7CC30BB6CA214A976E9B4603DB8BC107 /* Pods-JYFFoundation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYFFoundation-acknowledgements.plist"; sourceTree = "<group>"; };
-		813ACE51C30D4E955CE2532C00779027 /* Pods-JYFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF93B84A8B34CA35C736EC47896B250 /* Pods-JYFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYFFoundation-dummy.m"; sourceTree = "<group>"; };
+		8DA8F91A1898038BBCC8A08852A9EF2F /* Pods-JYFFoundation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYFFoundation-resources.sh"; sourceTree = "<group>"; };
+		8E6003A3D976D929DB06C70BF510DB5F /* Pods-JYFFoundation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYFFoundation-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E7BB0F652FC4ED4E73F6B3552C98BF16 /* Pods-JYFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYFFoundation-dummy.m"; sourceTree = "<group>"; };
+		AF6783D39C2A41198F2944DFBE1A1272 /* Pods-JYFFoundation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYFFoundation-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F150A6B9D40627348AFF8E75181ABC1B /* libPods-JYFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JYFFoundation.a"; path = "libPods-JYFFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,27 +35,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01E017E5CFDB8C760E0090C0F29CA423 /* Targets Support Files */ = {
+		72BA28740DC75C4618E1BD1932DDB036 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0CE8C8AF02B233E8CA1F42A03808E167 /* Pods-JYFFoundation */,
+				BB37FA2186F34F14E34FB2A72B5C1FC8 /* Pods-JYFFoundation */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		0CE8C8AF02B233E8CA1F42A03808E167 /* Pods-JYFFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				2BECFCBC45737F55EC837097A643BAAF /* Pods-JYFFoundation-acknowledgements.markdown */,
-				7CC30BB6CA214A976E9B4603DB8BC107 /* Pods-JYFFoundation-acknowledgements.plist */,
-				E7BB0F652FC4ED4E73F6B3552C98BF16 /* Pods-JYFFoundation-dummy.m */,
-				519EDF3817889A3DCA98E9C77D927286 /* Pods-JYFFoundation-frameworks.sh */,
-				1A6CE13D1A7651D458D1CD4CFA7CE9BA /* Pods-JYFFoundation-resources.sh */,
-				813ACE51C30D4E955CE2532C00779027 /* Pods-JYFFoundation.debug.xcconfig */,
-				7663C93361BCAA205A8D77B20AEF1905 /* Pods-JYFFoundation.release.xcconfig */,
-			);
-			name = "Pods-JYFFoundation";
-			path = "Target Support Files/Pods-JYFFoundation";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -65,8 +49,22 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E807CF4EC0B34F09066804361639E0EA /* Products */,
-				01E017E5CFDB8C760E0090C0F29CA423 /* Targets Support Files */,
+				72BA28740DC75C4618E1BD1932DDB036 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		BB37FA2186F34F14E34FB2A72B5C1FC8 /* Pods-JYFFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AF6783D39C2A41198F2944DFBE1A1272 /* Pods-JYFFoundation-acknowledgements.markdown */,
+				8E6003A3D976D929DB06C70BF510DB5F /* Pods-JYFFoundation-acknowledgements.plist */,
+				6EF93B84A8B34CA35C736EC47896B250 /* Pods-JYFFoundation-dummy.m */,
+				8DA8F91A1898038BBCC8A08852A9EF2F /* Pods-JYFFoundation-resources.sh */,
+				492A3A28650F87920084C1ADF50D72D6 /* Pods-JYFFoundation.debug.xcconfig */,
+				36CB6A08C5A5726F299F14775AB6F3FA /* Pods-JYFFoundation.release.xcconfig */,
+			);
+			name = "Pods-JYFFoundation";
+			path = "Target Support Files/Pods-JYFFoundation";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -196,7 +194,7 @@
 		};
 		73FC4DF99A3D27DD1DF2347B157C0E6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7663C93361BCAA205A8D77B20AEF1905 /* Pods-JYFFoundation.release.xcconfig */;
+			baseConfigurationReference = 36CB6A08C5A5726F299F14775AB6F3FA /* Pods-JYFFoundation.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -267,7 +265,7 @@
 		};
 		E1EFC762A8C1CD72C3D931D79A0F99EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 813ACE51C30D4E955CE2532C00779027 /* Pods-JYFFoundation.debug.xcconfig */;
+			baseConfigurationReference = 492A3A28650F87920084C1ADF50D72D6 /* Pods-JYFFoundation.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
