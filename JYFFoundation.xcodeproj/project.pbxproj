@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B857BA1F28EB2900C6E764 /* JYFFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 01B857B91F28EB2900C6E764 /* JYFFoundation.podspec */; };
 		A56ECBD0FACDE55F1055AA89 /* libPods-JYFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */; };
 		EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476B11F28CE0700589676 /* AppDelegate.m */; };
 		EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B21F28CE0700589676 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01B857B91F28EB2900C6E764 /* JYFFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JYFFoundation.podspec; sourceTree = "<group>"; };
 		12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYFFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889ED043F8FA769A513C37B3 /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
 		EE1476661F28CB8000589676 /* JYFFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYFFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 		EE14765D1F28CB8000589676 = {
 			isa = PBXGroup;
 			children = (
+				01B857B91F28EB2900C6E764 /* JYFFoundation.podspec */,
 				EE1476AF1F28CDC800589676 /* JYFFoundationDemo */,
 				EE1476C91F28CE9C00589676 /* JYFFoundation */,
 				EE1476671F28CB8000589676 /* Products */,
@@ -254,6 +257,7 @@
 			files = (
 				EE1476C01F28CE0700589676 /* Info.plist in Resources */,
 				EE1476BF1F28CE0700589676 /* Main.storyboard in Resources */,
+				01B857BA1F28EB2900C6E764 /* JYFFoundation.podspec in Resources */,
 				EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */,
 				EE1476BE1F28CE0700589676 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -552,6 +556,7 @@
 				EE1476E11F28CE9C00589676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
