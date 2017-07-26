@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/554994782/JYFFoundation.git"
 
-  s.license      = { :type => "MIT",
-                     :file => "LICENSE"
+  s.license      = { :type => "MIT"
                     }
 
   s.author             = { "jiangyunfeng" => "554994782@qq.com" }
