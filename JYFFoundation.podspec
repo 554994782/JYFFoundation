@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.source_files  = "JYFFoundation", "JYFFoundation/**/*.{h,m}"
   s.exclude_files = "JYFFoundation/Exclude"
 
-  s.public_header_files = "JYFFoundation/JYFFoundation"
-  s.resource_bundles = { 'JYFFoundation' => ['JYFFoundation/Views/**/*.{storyboard,xib,bundle}', 'JYFFoundation/Login/*.storyboard', 'JYFFoundation/Resources/*.xcassets', 'JYFFoundation/PickPhotos/*.{xib, storyboard}', 'JYFFoundation/StreamPlayer/Sounds.bundle'] }
+  s.public_header_files = "JYFFoundation/JYFFoundation.h"
+#s.resource_bundles = { 'JYFFoundation' => ['JYFFoundation/Views/**/*.{storyboard,xib,bundle}', 'JYFFoundation/Login/*.storyboard', 'JYFFoundation/Resources/*.xcassets', 'JYFFoundation/PickPhotos/*.{xib, storyboard}', 'JYFFoundation/StreamPlayer/Sounds.bundle'] }
 
 
 
