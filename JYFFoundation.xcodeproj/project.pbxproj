@@ -8,52 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		A56ECBD0FACDE55F1055AA89 /* libPods-JYFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */; };
-		EE14766B1F28CB8000589676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE14766A1F28CB8000589676 /* main.m */; };
-		EE14766E1F28CB8000589676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE14766D1F28CB8000589676 /* AppDelegate.m */; };
-		EE1476711F28CB8000589676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476701F28CB8000589676 /* ViewController.m */; };
-		EE1476741F28CB8000589676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1476721F28CB8000589676 /* Main.storyboard */; };
-		EE1476761F28CB8000589676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1476751F28CB8000589676 /* Assets.xcassets */; };
-		EE1476791F28CB8000589676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1476771F28CB8000589676 /* LaunchScreen.storyboard */; };
-		EE1476841F28CB8000589676 /* JYFFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476831F28CB8000589676 /* JYFFoundationTests.m */; };
-		EE14768F1F28CB8000589676 /* JYFFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE14768E1F28CB8000589676 /* JYFFoundationUITests.m */; };
+		EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476B11F28CE0700589676 /* AppDelegate.m */; };
+		EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B21F28CE0700589676 /* Assets.xcassets */; };
+		EE1476BE1F28CE0700589676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B41F28CE0700589676 /* LaunchScreen.storyboard */; };
+		EE1476BF1F28CE0700589676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B61F28CE0700589676 /* Main.storyboard */; };
+		EE1476C01F28CE0700589676 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B81F28CE0700589676 /* Info.plist */; };
+		EE1476C11F28CE0700589676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476B91F28CE0700589676 /* main.m */; };
+		EE1476C21F28CE0700589676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476BB1F28CE0700589676 /* ViewController.m */; };
+		EE1476DA1F28CE9C00589676 /* JYFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1476CA1F28CE9C00589676 /* JYFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1476DD1F28CE9C00589676 /* JYFFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1476C81F28CE9C00589676 /* JYFFoundation.framework */; };
+		EE1476DE1F28CE9C00589676 /* JYFFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1476C81F28CE9C00589676 /* JYFFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE1476801F28CB8000589676 /* PBXContainerItemProxy */ = {
+		EE1476DB1F28CE9C00589676 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE14765E1F28CB8000589676 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE1476651F28CB8000589676;
-			remoteInfo = JYFFoundation;
-		};
-		EE14768B1F28CB8000589676 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE14765E1F28CB8000589676 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE1476651F28CB8000589676;
+			remoteGlobalIDString = EE1476C71F28CE9C00589676;
 			remoteInfo = JYFFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EE1476E21F28CE9C00589676 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EE1476DE1F28CE9C00589676 /* JYFFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYFFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889ED043F8FA769A513C37B3 /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
-		EE1476661F28CB8000589676 /* JYFFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYFFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE14766A1F28CB8000589676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE14766C1F28CB8000589676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE14766D1F28CB8000589676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE14766F1F28CB8000589676 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE1476701F28CB8000589676 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE1476731F28CB8000589676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE1476751F28CB8000589676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE1476781F28CB8000589676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE14767A1F28CB8000589676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE14767F1F28CB8000589676 /* JYFFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYFFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE1476831F28CB8000589676 /* JYFFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFFoundationTests.m; sourceTree = "<group>"; };
-		EE1476851F28CB8000589676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE14768A1F28CB8000589676 /* JYFFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYFFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE14768E1F28CB8000589676 /* JYFFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFFoundationUITests.m; sourceTree = "<group>"; };
-		EE1476901F28CB8000589676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1476661F28CB8000589676 /* JYFFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYFFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1476B01F28CE0700589676 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE1476B11F28CE0700589676 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE1476B21F28CE0700589676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1476B51F28CE0700589676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1476B71F28CE0700589676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		EE1476B81F28CE0700589676 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1476B91F28CE0700589676 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1476BA1F28CE0700589676 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE1476BB1F28CE0700589676 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE1476C81F28CE9C00589676 /* JYFFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JYFFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1476CA1F28CE9C00589676 /* JYFFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFFoundation.h; sourceTree = "<group>"; };
+		EE1476CB1F28CE9C00589676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F528FA73294C64D957F368C3 /* Pods-JYFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,17 +69,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56ECBD0FACDE55F1055AA89 /* libPods-JYFFoundation.a in Frameworks */,
+				EE1476DD1F28CE9C00589676 /* JYFFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE14767C1F28CB8000589676 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE1476871F28CB8000589676 /* Frameworks */ = {
+		EE1476C41F28CE9C00589676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,9 +103,8 @@
 		EE14765D1F28CB8000589676 = {
 			isa = PBXGroup;
 			children = (
-				EE1476681F28CB8000589676 /* JYFFoundation */,
-				EE1476821F28CB8000589676 /* JYFFoundationTests */,
-				EE14768D1F28CB8000589676 /* JYFFoundationUITests */,
+				EE1476AF1F28CDC800589676 /* JYFFoundationDemo */,
+				EE1476C91F28CE9C00589676 /* JYFFoundation */,
 				EE1476671F28CB8000589676 /* Products */,
 				DCAE67294B1B8F40F0031B35 /* Pods */,
 				3B3C18B238997700C602CBAE /* Frameworks */,
@@ -115,61 +114,62 @@
 		EE1476671F28CB8000589676 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE1476661F28CB8000589676 /* JYFFoundation.app */,
-				EE14767F1F28CB8000589676 /* JYFFoundationTests.xctest */,
-				EE14768A1F28CB8000589676 /* JYFFoundationUITests.xctest */,
+				EE1476661F28CB8000589676 /* JYFFoundationDemo.app */,
+				EE1476C81F28CE9C00589676 /* JYFFoundation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE1476681F28CB8000589676 /* JYFFoundation */ = {
+		EE1476AF1F28CDC800589676 /* JYFFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EE14766C1F28CB8000589676 /* AppDelegate.h */,
-				EE14766D1F28CB8000589676 /* AppDelegate.m */,
-				EE14766F1F28CB8000589676 /* ViewController.h */,
-				EE1476701F28CB8000589676 /* ViewController.m */,
-				EE1476721F28CB8000589676 /* Main.storyboard */,
-				EE1476751F28CB8000589676 /* Assets.xcassets */,
-				EE1476771F28CB8000589676 /* LaunchScreen.storyboard */,
-				EE14767A1F28CB8000589676 /* Info.plist */,
-				EE1476691F28CB8000589676 /* Supporting Files */,
+				EE1476B01F28CE0700589676 /* AppDelegate.h */,
+				EE1476B11F28CE0700589676 /* AppDelegate.m */,
+				EE1476B21F28CE0700589676 /* Assets.xcassets */,
+				EE1476B31F28CE0700589676 /* Base.lproj */,
+				EE1476B81F28CE0700589676 /* Info.plist */,
+				EE1476B91F28CE0700589676 /* main.m */,
+				EE1476BA1F28CE0700589676 /* ViewController.h */,
+				EE1476BB1F28CE0700589676 /* ViewController.m */,
+			);
+			path = JYFFoundationDemo;
+			sourceTree = "<group>";
+		};
+		EE1476B31F28CE0700589676 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EE1476B41F28CE0700589676 /* LaunchScreen.storyboard */,
+				EE1476B61F28CE0700589676 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		EE1476C91F28CE9C00589676 /* JYFFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				EE1476CA1F28CE9C00589676 /* JYFFoundation.h */,
+				EE1476CB1F28CE9C00589676 /* Info.plist */,
 			);
 			path = JYFFoundation;
 			sourceTree = "<group>";
 		};
-		EE1476691F28CB8000589676 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE14766A1F28CB8000589676 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EE1476821F28CB8000589676 /* JYFFoundationTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE1476831F28CB8000589676 /* JYFFoundationTests.m */,
-				EE1476851F28CB8000589676 /* Info.plist */,
-			);
-			path = JYFFoundationTests;
-			sourceTree = "<group>";
-		};
-		EE14768D1F28CB8000589676 /* JYFFoundationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE14768E1F28CB8000589676 /* JYFFoundationUITests.m */,
-				EE1476901F28CB8000589676 /* Info.plist */,
-			);
-			path = JYFFoundationUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EE1476C51F28CE9C00589676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1476DA1F28CE9C00589676 /* JYFFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EE1476651F28CB8000589676 /* JYFFoundation */ = {
+		EE1476651F28CB8000589676 /* JYFFoundationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE1476931F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundation" */;
+			buildConfigurationList = EE1476931F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationDemo" */;
 			buildPhases = (
 				280561C66983000DE365D370 /* [CP] Check Pods Manifest.lock */,
 				EE1476621F28CB8000589676 /* Sources */,
@@ -177,6 +177,26 @@
 				EE1476641F28CB8000589676 /* Resources */,
 				63916B9F3D22751EF872E5B9 /* [CP] Embed Pods Frameworks */,
 				4DB4CBEA6EB31229BCF93ED1 /* [CP] Copy Pods Resources */,
+				EE1476E21F28CE9C00589676 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1476DC1F28CE9C00589676 /* PBXTargetDependency */,
+			);
+			name = JYFFoundationDemo;
+			productName = JYFFoundation;
+			productReference = EE1476661F28CB8000589676 /* JYFFoundationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1476C71F28CE9C00589676 /* JYFFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1476DF1F28CE9C00589676 /* Build configuration list for PBXNativeTarget "JYFFoundation" */;
+			buildPhases = (
+				EE1476C31F28CE9C00589676 /* Sources */,
+				EE1476C41F28CE9C00589676 /* Frameworks */,
+				EE1476C51F28CE9C00589676 /* Headers */,
+				EE1476C61F28CE9C00589676 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -184,44 +204,8 @@
 			);
 			name = JYFFoundation;
 			productName = JYFFoundation;
-			productReference = EE1476661F28CB8000589676 /* JYFFoundation.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EE14767E1F28CB8000589676 /* JYFFoundationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE1476961F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationTests" */;
-			buildPhases = (
-				EE14767B1F28CB8000589676 /* Sources */,
-				EE14767C1F28CB8000589676 /* Frameworks */,
-				EE14767D1F28CB8000589676 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE1476811F28CB8000589676 /* PBXTargetDependency */,
-			);
-			name = JYFFoundationTests;
-			productName = JYFFoundationTests;
-			productReference = EE14767F1F28CB8000589676 /* JYFFoundationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE1476891F28CB8000589676 /* JYFFoundationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE1476991F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationUITests" */;
-			buildPhases = (
-				EE1476861F28CB8000589676 /* Sources */,
-				EE1476871F28CB8000589676 /* Frameworks */,
-				EE1476881F28CB8000589676 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE14768C1F28CB8000589676 /* PBXTargetDependency */,
-			);
-			name = JYFFoundationUITests;
-			productName = JYFFoundationUITests;
-			productReference = EE14768A1F28CB8000589676 /* JYFFoundationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = EE1476C81F28CE9C00589676 /* JYFFoundation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -237,17 +221,10 @@
 						DevelopmentTeam = 2UDNR4WTGT;
 						ProvisioningStyle = Automatic;
 					};
-					EE14767E1F28CB8000589676 = {
+					EE1476C71F28CE9C00589676 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2UDNR4WTGT;
 						ProvisioningStyle = Automatic;
-						TestTargetID = EE1476651F28CB8000589676;
-					};
-					EE1476891F28CB8000589676 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2UDNR4WTGT;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EE1476651F28CB8000589676;
 					};
 				};
 			};
@@ -264,9 +241,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE1476651F28CB8000589676 /* JYFFoundation */,
-				EE14767E1F28CB8000589676 /* JYFFoundationTests */,
-				EE1476891F28CB8000589676 /* JYFFoundationUITests */,
+				EE1476651F28CB8000589676 /* JYFFoundationDemo */,
+				EE1476C71F28CE9C00589676 /* JYFFoundation */,
 			);
 		};
 /* End PBXProject section */
@@ -276,20 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1476791F28CB8000589676 /* LaunchScreen.storyboard in Resources */,
-				EE1476761F28CB8000589676 /* Assets.xcassets in Resources */,
-				EE1476741F28CB8000589676 /* Main.storyboard in Resources */,
+				EE1476C01F28CE0700589676 /* Info.plist in Resources */,
+				EE1476BF1F28CE0700589676 /* Main.storyboard in Resources */,
+				EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */,
+				EE1476BE1F28CE0700589676 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE14767D1F28CB8000589676 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE1476881F28CB8000589676 /* Resources */ = {
+		EE1476C61F28CE9C00589676 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,58 +321,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1476711F28CB8000589676 /* ViewController.m in Sources */,
-				EE14766E1F28CB8000589676 /* AppDelegate.m in Sources */,
-				EE14766B1F28CB8000589676 /* main.m in Sources */,
+				EE1476C21F28CE0700589676 /* ViewController.m in Sources */,
+				EE1476C11F28CE0700589676 /* main.m in Sources */,
+				EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE14767B1F28CB8000589676 /* Sources */ = {
+		EE1476C31F28CE9C00589676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1476841F28CB8000589676 /* JYFFoundationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE1476861F28CB8000589676 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE14768F1F28CB8000589676 /* JYFFoundationUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE1476811F28CB8000589676 /* PBXTargetDependency */ = {
+		EE1476DC1F28CE9C00589676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE1476651F28CB8000589676 /* JYFFoundation */;
-			targetProxy = EE1476801F28CB8000589676 /* PBXContainerItemProxy */;
-		};
-		EE14768C1F28CB8000589676 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE1476651F28CB8000589676 /* JYFFoundation */;
-			targetProxy = EE14768B1F28CB8000589676 /* PBXContainerItemProxy */;
+			target = EE1476C71F28CE9C00589676 /* JYFFoundation */;
+			targetProxy = EE1476DB1F28CE9C00589676 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE1476721F28CB8000589676 /* Main.storyboard */ = {
+		EE1476B41F28CE0700589676 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE1476731F28CB8000589676 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE1476771F28CB8000589676 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE1476781F28CB8000589676 /* Base */,
+				EE1476B51F28CE0700589676 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1476B61F28CE0700589676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1476B71F28CE0700589676 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -504,9 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundation/Info.plist;
+				INFOPLIST_FILE = JYFFoundationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFFoundationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -517,60 +473,54 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundation/Info.plist;
+				INFOPLIST_FILE = JYFFoundationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFFoundationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		EE1476971F28CB8000589676 /* Debug */ = {
+		EE1476E01F28CE9C00589676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundationTests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JYFFoundation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYFFoundation.app/JYFFoundation";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EE1476981F28CB8000589676 /* Release */ = {
+		EE1476E11F28CE9C00589676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundationTests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JYFFoundation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYFFoundation.app/JYFFoundation";
-			};
-			name = Release;
-		};
-		EE14769A1F28CB8000589676 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JYFFoundation;
-			};
-			name = Debug;
-		};
-		EE14769B1F28CB8000589676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 2UDNR4WTGT;
-				INFOPLIST_FILE = JYFFoundationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.JYFFoundationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JYFFoundation;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -586,27 +536,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE1476931F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundation" */ = {
+		EE1476931F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE1476941F28CB8000589676 /* Debug */,
 				EE1476951F28CB8000589676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EE1476961F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationTests" */ = {
+		EE1476DF1F28CE9C00589676 /* Build configuration list for PBXNativeTarget "JYFFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE1476971F28CB8000589676 /* Debug */,
-				EE1476981F28CB8000589676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EE1476991F28CB8000589676 /* Build configuration list for PBXNativeTarget "JYFFoundationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE14769A1F28CB8000589676 /* Debug */,
-				EE14769B1F28CB8000589676 /* Release */,
+				EE1476E01F28CE9C00589676 /* Debug */,
+				EE1476E11F28CE9C00589676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JYFFoundation 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>JYFFoundation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>EE1476891F28CB8000589676</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE1476C71F28CE9C00589676</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE1476CF1F28CE9C00589676</key>
 		<dict>
 			<key>primary</key>
 			<true/>

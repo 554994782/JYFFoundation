@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EE1476651F28CB8000589676"
-               BuildableName = "JYFFoundation.app"
-               BlueprintName = "JYFFoundation"
+               BuildableName = "JYFFoundationDemo.app"
+               BlueprintName = "JYFFoundationDemo"
                ReferencedContainer = "container:JYFFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,13 +48,23 @@
                ReferencedContainer = "container:JYFFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EE1476CF1F28CE9C00589676"
+               BuildableName = "JYFFoundationTests.xctest"
+               BlueprintName = "JYFFoundationTests"
+               ReferencedContainer = "container:JYFFoundation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE1476651F28CB8000589676"
-            BuildableName = "JYFFoundation.app"
-            BlueprintName = "JYFFoundation"
+            BuildableName = "JYFFoundationDemo.app"
+            BlueprintName = "JYFFoundationDemo"
             ReferencedContainer = "container:JYFFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +86,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE1476651F28CB8000589676"
-            BuildableName = "JYFFoundation.app"
-            BlueprintName = "JYFFoundation"
+            BuildableName = "JYFFoundationDemo.app"
+            BlueprintName = "JYFFoundationDemo"
             ReferencedContainer = "container:JYFFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +105,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE1476651F28CB8000589676"
-            BuildableName = "JYFFoundation.app"
-            BlueprintName = "JYFFoundation"
+            BuildableName = "JYFFoundationDemo.app"
+            BlueprintName = "JYFFoundationDemo"
             ReferencedContainer = "container:JYFFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
