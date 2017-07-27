@@ -12,6 +12,7 @@
 		01F17EEE1F297CB2002D444B /* UIColor+Stec.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F17EEA1F297CB2002D444B /* UIColor+Stec.m */; };
 		01F17EEF1F297CB2002D444B /* UIFont+Stec.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F17EEB1F297CB2002D444B /* UIFont+Stec.h */; };
 		01F17EF01F297CB2002D444B /* UIFont+Stec.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F17EEC1F297CB2002D444B /* UIFont+Stec.m */; };
+		01F17EF21F298D65002D444B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 01F17EF11F298D65002D444B /* README.md */; };
 		77DDD0BEBC8B589AE5C4084B /* libPods-JYFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */; };
 		EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476B11F28CE0700589676 /* AppDelegate.m */; };
 		EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B21F28CE0700589676 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		01F17EEA1F297CB2002D444B /* UIColor+Stec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Stec.m"; sourceTree = "<group>"; };
 		01F17EEB1F297CB2002D444B /* UIFont+Stec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Stec.h"; sourceTree = "<group>"; };
 		01F17EEC1F297CB2002D444B /* UIFont+Stec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Stec.m"; sourceTree = "<group>"; };
+		01F17EF11F298D65002D444B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYFFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD7EB5A9BFE87A6D443ADA3 /* Pods-JYFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		88C6C09193953C584E12CD9B /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		EE1476AF1F28CDC800589676 /* JYFFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				01F17EF11F298D65002D444B /* README.md */,
 				EE1476B01F28CE0700589676 /* AppDelegate.h */,
 				EE1476B11F28CE0700589676 /* AppDelegate.m */,
 				EE1476B21F28CE0700589676 /* Assets.xcassets */,
@@ -325,6 +328,7 @@
 			files = (
 				EE1476C21F28CE0700589676 /* ViewController.m in Sources */,
 				EE1476C11F28CE0700589676 /* main.m in Sources */,
+				01F17EF21F298D65002D444B /* README.md in Sources */,
 				EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIColor+Stec.h"
+#import "UIFont+Stec.h"
+
 
 //! Project version number for JYFFoundation.
 FOUNDATION_EXPORT double JYFFoundationVersionNumber;
