@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "jiangyunfeng" => "554994782@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/554994782/JYFFoundation.git", :branch => "release" }
+  s.source       = { :git => "https://github.com/554994782/JYFFoundation.git", :branch => "release/release" }
 
   s.source_files  = "JYFFoundation"
 
