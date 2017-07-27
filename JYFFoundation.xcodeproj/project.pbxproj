@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01B857BA1F28EB2900C6E764 /* JYFFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 01B857B91F28EB2900C6E764 /* JYFFoundation.podspec */; };
+		01F17EED1F297CB2002D444B /* UIColor+Stec.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F17EE91F297CB2002D444B /* UIColor+Stec.h */; };
+		01F17EEE1F297CB2002D444B /* UIColor+Stec.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F17EEA1F297CB2002D444B /* UIColor+Stec.m */; };
+		01F17EEF1F297CB2002D444B /* UIFont+Stec.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F17EEB1F297CB2002D444B /* UIFont+Stec.h */; };
+		01F17EF01F297CB2002D444B /* UIFont+Stec.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F17EEC1F297CB2002D444B /* UIFont+Stec.m */; };
 		77DDD0BEBC8B589AE5C4084B /* libPods-JYFFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */; };
 		EE1476BC1F28CE0700589676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1476B11F28CE0700589676 /* AppDelegate.m */; };
 		EE1476BD1F28CE0700589676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1476B21F28CE0700589676 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 
 /* Begin PBXFileReference section */
 		01B857B91F28EB2900C6E764 /* JYFFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JYFFoundation.podspec; sourceTree = "<group>"; };
+		01F17EE91F297CB2002D444B /* UIColor+Stec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Stec.h"; sourceTree = "<group>"; };
+		01F17EEA1F297CB2002D444B /* UIColor+Stec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Stec.m"; sourceTree = "<group>"; };
+		01F17EEB1F297CB2002D444B /* UIFont+Stec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Stec.h"; sourceTree = "<group>"; };
+		01F17EEC1F297CB2002D444B /* UIFont+Stec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Stec.m"; sourceTree = "<group>"; };
 		12A6D4DEBFAB05637F9F226C /* libPods-JYFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYFFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD7EB5A9BFE87A6D443ADA3 /* Pods-JYFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		88C6C09193953C584E12CD9B /* Pods-JYFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFFoundation/Pods-JYFFoundation.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				EE1476CA1F28CE9C00589676 /* JYFFoundation.h */,
+				01F17EE91F297CB2002D444B /* UIColor+Stec.h */,
+				01F17EEA1F297CB2002D444B /* UIColor+Stec.m */,
+				01F17EEB1F297CB2002D444B /* UIFont+Stec.h */,
+				01F17EEC1F297CB2002D444B /* UIFont+Stec.m */,
 				EE1476CB1F28CE9C00589676 /* Info.plist */,
 			);
 			path = JYFFoundation;
@@ -164,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1476DA1F28CE9C00589676 /* JYFFoundation.h in Headers */,
+				01F17EEF1F297CB2002D444B /* UIFont+Stec.h in Headers */,
+				01F17EED1F297CB2002D444B /* UIColor+Stec.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F17EEE1F297CB2002D444B /* UIColor+Stec.m in Sources */,
+				01F17EF01F297CB2002D444B /* UIFont+Stec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
