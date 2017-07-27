@@ -11,18 +11,14 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/554994782/JYFFoundation.git"
 
-  s.license      = { :type => "MIT"
-                    }
+  s.license      = "MIT"
 
-  s.author             = { "jiangyunfeng" => "554994782@qq.com" }
+  s.author       = { "jiangyunfeng" => "554994782@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/554994782/JYFFoundation.git", :branch => "master" }
 
-  s.source_files  = "JYFFoundation/**/*.{h,m}"
+  s.source_files  = "JYFFoundation"
 
   s.public_header_files = "JYFFoundation/**/*.h"
-#s.resource_bundles = { 'JYFFoundation' => ['JYFFoundation/Views/**/*.{storyboard,xib,bundle}', 'JYFFoundation/Login/*.storyboard', 'JYFFoundation/Resources/*.xcassets', 'JYFFoundation/PickPhotos/*.{xib, storyboard}', 'JYFFoundation/StreamPlayer/Sounds.bundle'] }
-
-
-
+#s.resource_bundles = { 'JYFFoundation' => ['JYFFoundation/**/*.{storyboard,xib,xcassets,json,imageset,png}'] }
 end
