@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/554994782/JYFSpecs.git'
 
 platform :ios, '8.0'
     
