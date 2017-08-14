@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "JYFFoundation/**/*.h"
 #s.resource_bundles = { 'JYFFoundation' => ['JYFFoundation/**/*.{storyboard,xib,xcassets,json,imageset,png}'] }
+s.dependency 'MGJRouter'
 end
